@@ -106,7 +106,7 @@ def add_movie():
 
         headers = {
             "accept": "application/json",
-            "Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwMTQ3MmRmZjlkYWZlZDQ2NjEwNGVkZjVmMDU4MTdiZiIsIm5iZiI6MTcyOTQwOTYwMC44MjIxMjMsInN1YiI6IjY3MTRiMWFmOTlmMjJmMzI2YWFkNjBmNSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.JwccBzlgi1Cj_yC9QRsW_dyVm4CMaOQp_jHeQyTTDdU"
+            "Authorization": Your API KEY
         }
 
         response = requests.get(url, headers=headers)
@@ -125,7 +125,7 @@ def find_movie():
 
         headers = {
             "accept": "application/json",
-            "Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwMTQ3MmRmZjlkYWZlZDQ2NjEwNGVkZjVmMDU4MTdiZiIsIm5iZiI6MTcyOTQwOTYwMC44MjIxMjMsInN1YiI6IjY3MTRiMWFmOTlmMjJmMzI2YWFkNjBmNSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.JwccBzlgi1Cj_yC9QRsW_dyVm4CMaOQp_jHeQyTTDdU"
+            "Authorization": Your API KEY
         }
 
         response = requests.get(movie_api_url, headers=headers)
